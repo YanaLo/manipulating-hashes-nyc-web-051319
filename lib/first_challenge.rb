@@ -22,4 +22,5 @@ def first_challenge
       if k==:favorite_icecream_flavors
         v.delete_if{|flavor| flavor=="strawberry"}
 end
-
+end 
+end
