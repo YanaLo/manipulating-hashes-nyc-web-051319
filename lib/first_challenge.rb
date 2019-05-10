@@ -18,6 +18,6 @@ def first_challenge
 
   #remember to return your newly altered contacts hash!
   contacts.each do |person, info|
-    
+    info.each do |
 end
 
