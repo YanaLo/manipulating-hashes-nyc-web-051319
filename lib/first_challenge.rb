@@ -19,6 +19,6 @@ def first_challenge
   #remember to return your newly altered contacts hash!
   contacts.each do |person, info|
     info.each do |k,v|
-      if k==
+      if k==:favorite_icecream_flavors
 end
 
