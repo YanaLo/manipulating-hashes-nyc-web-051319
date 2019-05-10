@@ -20,5 +20,6 @@ def first_challenge
   contacts.each do |person, info|
     info.each do |k,v|
       if k==:favorite_icecream_flavors
+        v.delete_if
 end
 
